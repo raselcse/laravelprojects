@@ -16,7 +16,7 @@ return [
     |
     */
 
-    'driver' => env('MAIL_DRIVER', 'smtp'),
+    'driver' => env('MAIL_DRIVER', 'log'),
 
     /*
     |--------------------------------------------------------------------------
@@ -56,8 +56,8 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'suppport@contactlist.com'),
-        'name' => env('MAIL_FROM_NAME', 'Example'),
+        'address' => env('MAIL_FROM_ADDRESS', 'zilanisec@gmail.com'),
+        'name' => env('MAIL_FROM_NAME', 'Contacts.com'),
     ],
 
     /*
@@ -84,9 +84,9 @@ return [
     |
     */
 
-    'username' => env('zilani@oployeelabs.com'),
+    'username' => env(''),
 
-    'password' => env('rasel@2007554'),
+    'password' => env(''),
 
     /*
     |--------------------------------------------------------------------------
